@@ -37,9 +37,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.nav-item-link .link:hover
-.nav-item-link .link:focus{
-color: #404BBF;
+.nav-item-link:hover,
+.nav-item-link:focus {
+color: #404bbf;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -87,24 +87,18 @@ letter-spacing: 0.04em;
 text-transform: capitalize;
 cursor: pointer;
 background:#4D5AE5;
-box-shadow: rgba(0, 0, 0, 0.15);
 }
 
 .section_one-btn:hover,
 .section_one-btn:focus {
 background: #404BBF;
-box-shadow: rgba(0, 0, 0, 0.15);
 }
 
 /* Section2 */
 
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
 margin: -1px;
 border: 0;
-padding: 0;
 white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
